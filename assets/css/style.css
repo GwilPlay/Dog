@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.intro {
+  background: url(../img/bg-main.png) no-repeat center center/cover;
+  padding: 208px 0 400px 0;
+}
+.intro__title {
+  color: #fff;
+  font-size: 56px;
+  font-weight: 900;
+  max-width: 585px;
+}
+
+.dog {
+  margin-top: -80px;
+}
+.dog__wrap {
+  position: relative;
+  background-color: #5D62B5;
+  padding: 100px 87px 0 87px;
+  border-radius: 40px;
+}
+.dog__dots {
+  position: absolute;
+  top: -110px;
+  right: -70px;
+}
+.dog__subtitle {
+  color: #F5F5F5;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.dog__subtitle-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 33px;
+}
+.dog__title {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 900;
+  max-width: 583px;
+  margin-bottom: 36px;
+}
+.dog__text {
+  color: #F5F5F5;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: -40px;
+}
+.dog__blob {
+  position: absolute;
+  bottom: -145px;
+  left: 0;
+}
+.dog__photo {
+  position: relative;
+  border-radius: 40px;
+  bottom: -120px;
+}
+.dog__photo img {
+  border-radius: 40px;
+}
+
+.cards__wrap {
+  margin-top: 230px;
+}
+.cards__subtitle-box {
+  display: flex;
+  color: #5D62B5;
+  align-items: center;
+}
+.cards__subtitle-box__logo {
+  color: #5D62B5;
+}
+.cards__subtitle {
+  font-size: 12px;
+  font-weight: bold;
+}
+.cards__title {
+  font-size: 36px;
+  font-weight: 900;
+}
+.cards__cards {
+  display: flex;
+  padding-bottom: 122px;
+  padding-top: 26px;
+  max-width: 1020px;
+  gap: 26px;
+}
+.cards__card {
+  gap: 24px;
+  display: flex;
+  max-width: 324px;
+  justify-content: space-between;
+}
+.cards__img {
+  position: absolute;
+}
+.cards__texts {
+  padding-left: 86px;
+}
+.cards__title-box {
+  color: #F2726F;
+  font-size: 19px;
+  font-weight: 900;
+}
+.cards__text {
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 235px;
+}
+
+.ball {
+  display: flex;
+  background-color: #29C3BE;
+}
+.ball__blob {
+  position: absolute;
+  z-index: 0;
+}
+.ball__circl {
+  position: absolute;
+  margin-top: 100px;
+  z-index: 0;
+}
+.ball__img {
+  z-index: 1;
+}
+.ball__title {
+  z-index: 1;
+}
+.ball__subtitle {
+  font-size: 36px;
+  font-weight: 900;
+  color: #fff;
+  max-width: 411px;
+  margin-top: 112px;
+  margin-right: 120px;
+  z-index: 2;
+}
+.ball__button {
+  margin-top: 42px;
+  z-index: 1;
+}
+.ball__btn {
+  padding: 16px 24px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  background-color: #F2726F;
+  z-index: 1;
+}
+.ball__line {
+  position: absolute;
+  margin-top: -110px;
+  z-index: 0;
+}
+.ball__ball {
+  position: absolute;
+  top: 1000px;
+  right: 0px;
+}/*# sourceMappingURL=style.css.map */
